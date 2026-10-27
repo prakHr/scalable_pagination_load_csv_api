@@ -1,3 +1,5 @@
+# uvicorn scalable_pagination_load_csv_api:app --reload
+
 import os
 
 os.environ["OMP_NUM_THREADS"] = "1"
